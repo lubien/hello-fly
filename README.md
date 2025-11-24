@@ -15,6 +15,11 @@ hello-fly/
 ├── hello-fly-python-2/
 ├── hello-fly-python-3/
 ├── hello-fly-python-3.9/
+├── hello-fly-dotnet-core-3.1/
+├── hello-fly-dotnet-5/
+├── hello-fly-dotnet-6/
+├── hello-fly-dotnet-7/
+├── hello-fly-dotnet-8/
 ├── hello-fly-java-spring-gradle/
 └── hello-fly-java-spring-maven/
 ```
@@ -60,6 +65,33 @@ hello-fly/
 - **Run**: `cd hello-fly-python-3.9 && python3.9 server.py`
 - **Default Port**: 3000
 
+### .NET Applications
+
+#### hello-fly-dotnet-core-3.1
+- **Technology**: .NET Core 3.1
+- **Run**: `cd hello-fly-dotnet-core-3.1 && dotnet run`
+- **Default Port**: 3000
+
+#### hello-fly-dotnet-5
+- **Technology**: .NET 5
+- **Run**: `cd hello-fly-dotnet-5 && dotnet run`
+- **Default Port**: 3000
+
+#### hello-fly-dotnet-6
+- **Technology**: .NET 6 (Minimal API)
+- **Run**: `cd hello-fly-dotnet-6 && dotnet run`
+- **Default Port**: 3000
+
+#### hello-fly-dotnet-7
+- **Technology**: .NET 7 (Minimal API)
+- **Run**: `cd hello-fly-dotnet-7 && dotnet run`
+- **Default Port**: 3000
+
+#### hello-fly-dotnet-8
+- **Technology**: .NET 8 (Minimal API)
+- **Run**: `cd hello-fly-dotnet-8 && dotnet run`
+- **Default Port**: 3000
+
 ### Java Spring Boot Applications
 
 #### hello-fly-java-spring-gradle
@@ -82,6 +114,7 @@ Example:
 ```bash
 PORT=8080 npm start
 PORT=8080 python server.py
+PORT=8080 dotnet run
 PORT=8080 ./gradlew bootRun
 PORT=8080 ./mvnw spring-boot:run
 ```
@@ -90,6 +123,7 @@ PORT=8080 ./mvnw spring-boot:run
 
 - **Node.js applications**: Respective Node.js versions installed
 - **Python applications**: Python 2 or Python 3 installed as required
+- **.NET applications**: .NET SDK for the respective version installed
 - **Java applications**: Java 11 or higher installed
 
 ## Testing
